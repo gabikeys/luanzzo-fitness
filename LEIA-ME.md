@@ -74,10 +74,33 @@ depoimento.
 - **Perguntas do FAQ** → `index.html`, seção `id="faq"`.
 - **Instagram / e-mail** → rodapé do `index.html`.
 
-## Como publicar (grátis)
+## Publicação
 
-1. **Netlify Drop** — netlify.com/drop: arrasta a pasta inteira na página, sai com link no ar.
-2. **Vercel** — vercel.com, mesma ideia.
-3. **GitHub Pages** — sobe a pasta num repositório e ativa Pages nas configurações.
+O código vive em **https://github.com/gabikeys/luanzzo-fitness** e é publicado
+pela **Vercel**. O `vercel.json` já vai junto: ele liga cache longo nas imagens
+e alguns cabeçalhos de segurança. Não precisa configurar build — é site estático.
 
-Depois é só apontar o domínio (ex. `luanzzofitness.com.br`) para o serviço escolhido.
+### Como sai uma atualização no ar
+
+```bash
+git add -A
+git commit -m "descrição do que mudou"
+git push
+```
+
+A Vercel detecta o push e publica sozinha em ~30 segundos. Cada push numa branch
+diferente de `main` gera uma URL de preview, útil pra ver antes de valer.
+
+### Domínio próprio
+
+No painel da Vercel: **Settings → Domains → Add**. Aponte o `luanzzofitness.com.br`
+lá e ela emite o certificado HTTPS automaticamente.
+
+### Monitoramento
+
+**UptimeRobot** (uptimerobot.com), plano grátis: monitor do tipo HTTP(s) na URL
+do site, checagem a cada 5 minutos, alerta por e-mail se cair.
+
+Vale saber: esse site é 100% estático servido por CDN — não existe servidor que
+"durma". Aquele uso do UptimeRobot pra manter serviço acordado (comum no Render
+e no Railway) não se aplica aqui. Aqui ele serve só pra te avisar de queda.
