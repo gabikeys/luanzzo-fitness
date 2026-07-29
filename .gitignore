@@ -1,0 +1,23 @@
+# dependências
+node_modules/
+
+# saída de build / deploy
+.vercel/
+.netlify/
+dist/
+build/
+
+# variáveis de ambiente (nunca comitar chaves)
+.env
+.env.*
+!.env.example
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editores
+.vscode/
+.idea/
+*.swp
