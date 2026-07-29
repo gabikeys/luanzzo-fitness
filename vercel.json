@@ -6,11 +6,7 @@
     {
       "source": "/img/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "comment": "As fotos trocam mantendo o mesmo nome de arquivo, entao NAO pode ser immutable: o navegador de quem ja visitou ficaria preso na foto antiga. max-age curto para o navegador, s-maxage longo para o CDN da Vercel (que e limpo a cada deploy).",
-          "value": "public, max-age=600, s-maxage=31536000, stale-while-revalidate=86400"
-        }
+        { "key": "Cache-Control", "value": "public, max-age=600, s-maxage=31536000, stale-while-revalidate=86400" }
       ]
     },
     {
