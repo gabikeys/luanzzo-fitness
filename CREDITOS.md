@@ -11,7 +11,6 @@ autorização — mas é boa prática manter esta lista.
 | `topo-2.jpg` | carrossel 2 — em casa, café, sorrindo | https://www.pexels.com/photo/two-men-holding-hands-and-looking-at-each-other-4746708/ |
 | `topo-3.jpg` | carrossel 3 — café da manhã, camiseta + boxer | https://www.pexels.com/photo/4746597/ |
 | `topo-4.jpg` | carrossel 4 — casal sorrindo, boxer cinza | https://www.pexels.com/photo/smiling-couple-with-tattoos-13765753/ |
-| `topo-5.jpg` | carrossel 5 — cozinha, dois homens rindo, boxer preta | https://www.pexels.com/photo/couple-cooking-in-kitchen-4746517/ |
 | `produto-1.jpg` | close do produto, dois tons de pele | https://www.pexels.com/photo/close-up-shot-of-two-topless-men-wearing-white-boxer-briefs-8874933/ |
 | `produto-2.jpg` | dois modelos, biotipos diferentes | https://www.pexels.com/photo/shirtless-men-wearing-boxer-briefs-8874670/ |
 | `produto-3.jpg` | dupla, vista frontal | https://www.pexels.com/photo/men-wearing-underwear-posing-8875156/ |
