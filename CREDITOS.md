@@ -9,7 +9,7 @@ autorização — mas é boa prática manter esta lista.
 |---|---|---|
 | `hero-1.jpg` | carrossel 1 — manhã na cama, camiseta + boxer | https://www.pexels.com/photo/man-with-a-beard-in-a-t-shirt-and-boxers-sitting-on-a-bed-4746591/ |
 | `hero-2.jpg` | carrossel 2 — em casa, café, sorrindo | https://www.pexels.com/photo/two-men-holding-hands-and-looking-at-each-other-4746708/ |
-| `hero-3.jpg` | carrossel 3 — sorriso, manhã | https://www.pexels.com/photo/man-hugging-white-pillow-7556596/ |
+| `hero-3.jpg` | carrossel 3 — café da manhã, camiseta + boxer | https://www.pexels.com/photo/4746597/ |
 | `hero-4.jpg` | carrossel 4 — casal sorrindo, boxer cinza | https://www.pexels.com/photo/smiling-couple-with-tattoos-13765753/ |
 | `hero-5.jpg` | carrossel 5 — casal abraçado, boxer preta | https://www.pexels.com/photo/couple-wearing-underwear-only-hugging-and-smiling-13765737/ |
 | `produto-1.jpg` | close do produto, dois tons de pele | https://www.pexels.com/photo/close-up-shot-of-two-topless-men-wearing-white-boxer-briefs-8874933/ |
